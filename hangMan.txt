@@ -1,0 +1,16 @@
+FLOW:
+    1. start
+    2. select random word
+    3. take single char input
+        a. if guess is right
+            Replace _ with word
+        b. else
+            reduce attempts
+    4. Print user string
+    5. a. if user string= selected string
+        WIN
+    b. else 
+        GOTO step 3
+    6. Repeat steps 3 to 5 until the user wins or chances =0
+
+REQUIREMENTS
